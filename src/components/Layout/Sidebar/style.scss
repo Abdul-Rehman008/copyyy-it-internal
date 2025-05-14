@@ -1,0 +1,53 @@
+.sidebar {
+    width: 100%;
+    min-height: 100svh;
+    background-color: white;
+    border-right: 1px solid #eee;
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+    display: block;
+    max-width: 250px;
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 0;
+    transition: all .2s ease-in-out;
+    gap: 70px;
+}
+
+.userName {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.copy-trade-link {
+    background-color: #00c000 !important;
+    border-radius: 8px;
+}
+
+.copy-trade-link i {
+    margin-right: 5px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.siderbar-footer {
+    max-width: 80%;
+    width: 100%;
+    .poweredBy,.companyName {
+        font-size: 10px;
+        color: lightgray;
+        margin-bottom: 0px;
+    }
+    hr {
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+}

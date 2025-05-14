@@ -1,0 +1,46 @@
+.slick-slide>div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.bg-green {
+    background-color: #11b700 !important;
+}
+
+.shadow-black {
+    box-shadow: 10px 24px 27px rgba(0, 0, 0, 0.06);
+}
+
+.slick-dots {
+    bottom: -55px !important;
+
+    li {
+        width: 6px !important;
+        height: 6px !important;
+    }
+}
+
+.slick-dots li.slick-active {
+    width: 16px !important;
+}
+
+.slick-dots li button:before {
+    content: '' !important;
+    width: 6px !important;
+    height: 6px !important;
+    background: #000000;
+    opacity: 1 !important;
+    border-radius: 50%;
+}
+
+
+.slick-dots li.slick-active button:before {
+    content: '';
+    border-radius: 10px;
+    background: linear-gradient(90deg,
+            #11b700 0.00%,
+            #11b700 100.00%) !important;
+    opacity: 1;
+    width: 16px !important;
+}

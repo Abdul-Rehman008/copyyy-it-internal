@@ -1,0 +1,59 @@
+/* src/components/StatusSlider.css */
+.status-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    width: 30px;
+    border-radius: 0 12px 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-green-gardient {
+    background: linear-gradient(90deg,
+            #11b700 0.00%,
+            #11b700 100.00%);
+}
+
+.bg-orange-gardient {
+    background: linear-gradient(90deg,
+            #ff0027 0.00%,
+            #ff0000 100.00%);
+}
+
+.accountStatusWrapper {
+    padding-bottom: 75px;
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 21px;
+    }
+
+    .accountStatusCard {
+        // max-width: 150px;
+        min-height: 110px;
+        border-radius: 12px;
+
+        h6 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 17px;
+            color: #000000;
+        }
+
+        .status-card-text {
+            font-size: 12px;
+            line-height: 22px;
+            color: #a8adb5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0;
+            position: absolute;
+            bottom: 16px;
+            gap: 20px;
+        }
+    }
+}

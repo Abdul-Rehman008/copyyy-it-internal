@@ -1,0 +1,141 @@
+.bg-light {
+    background-color: #f0f2f5 !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.accountSummaryWrapper {
+    gap: 30px;
+    // padding-right: 24px;
+}
+
+.accountSummaryContent {
+    border-right: 1px solid #dfe3ea;
+    padding-right: 80px;
+
+    @media (max-width: 575px) {
+        border-right: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .summaryHeading {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .currency {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 32px;
+        color: #06152b;
+    }
+
+    .pricing {
+        font-size: 70px;
+        font-weight: 500;
+        margin-bottom: 0;
+        color: #101428;
+
+        span {
+            font-size: 45px;
+        }
+    }
+
+    .summaryHistory {
+        color: #10b700;
+        font-size: 14px;
+        font-weight: 700;
+
+        span {
+            font-weight: 400;
+            color: #000000;
+        }
+    }
+}
+
+.statsBlock {
+    gap: 35px;
+
+    .tradingStats {
+        flex-basis: 200px;
+
+        .tradingContent {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 22px;
+            }
+        }
+
+        .statsPercentage {
+            font-size: 28px;
+            font-weight: 500;
+            color: #101428;
+        }
+    }
+}
+
+.projectAccount {
+    max-width: 235px;
+    width: 100%;
+    padding: 25px;
+    background-color: #DFE3EA;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 991px) {
+        max-width: 100%;
+    }
+
+    .text-project {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #000000;
+
+        strong {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
+
+.projectAccountStats {
+    background: #11b700;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #ffffff;
+
+    .price {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .statsValue {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+}
+
+.text-trading {
+    line-height: 16px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+}

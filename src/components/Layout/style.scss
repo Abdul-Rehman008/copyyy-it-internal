@@ -1,0 +1,22 @@
+.main-content {
+    max-width: 100%;
+    margin-left: 290px;
+
+    @media (max-width: 991px) {
+        margin-left: 0;
+    }
+}
+
+.app-layout {
+    background-color: #f5f5f5;
+}
+
+.body-content-wrapper {
+    max-width: 98%;
+    width: 100%;
+
+    @media (max-width: 991px) {
+        max-width: 95%;   
+        margin: 0 auto;
+    }
+}
